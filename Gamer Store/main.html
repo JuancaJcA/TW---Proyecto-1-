@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <!--* HEAD -->
+
+    <head>
+        <!-- !TTTLE -->
+        <title>Gamer Store</title>
+        <!-- !META -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="SIS-241 TECNOLOGÍAS WEB [Par. 1]" />
+        <meta name="author" content="Juan Carlos Avila Flores" />
+        <!-- !LINK -->
+        <link rel="icon" href="images/icon.png" />
+        <link rel="stylesheet" href="css/body.css" />
+        <link rel="stylesheet" href="css/cards.css" />
+        <link rel="stylesheet" href="css/forms.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/buttons.css" />
+        <link rel="stylesheet" href="css/carousel.css" />
+        <link rel="stylesheet" href="css/social-media.css" />
+        <!-- !GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <!-- !SCRIPT -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/carousel.js"></script>
+        <!-- !Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+
+    <!--* BODY -->
+    <body class="bodyWhite">
+        <!-- !Navbar -->
+        <ul class="topnav">
+            <li><a class="active" href="main.html">Registrar</a></li>
+            <li><a href="store.html">Catálago</a></li>
+            <li style="float: right">
+                <a href="contact.html">Contacto</a>
+            </li>
+        </ul>
+        <center>
+            <!-- !Title -->
+            <h1 class="title-1">Gamer Store</h1>
+            <!-- !Text-1 -->
+            <p class="text-1-center">
+                Encuentre los <strong>mejores juegos</strong> a los mejores
+                precios del país.<br /><br />
+                Visita nuestra sucursal ubicada en la ciudad de
+                <strong> La Paz - Bolivia </strong>.
+            </p>
+            <!-- !Images -->
+            <div class="slideshow-container">
+                <div class="mySlides fadeSlide" style="height: 485px">
+                    <div class="numbertext">1 / 3</div>
+                    <img class="img-fluid" src="images/image-1.png" />
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+
+                <div class="mySlides fadeSlide" style="height: 485px">
+                    <div class="numbertext">2 / 3</div>
+                    <img class="img-fluid" src="images/image-2.png" />
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+
+                <div class="mySlides fadeSlide" style="height: 485px">
+                    <div class="numbertext">3 / 3</div>
+                    <img class="img-fluid" src="images/image-3.png" />
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+            </div>
+
+            <div style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <!-- !Title -->
+            <h1 class="title-1">¡Queremos conocerte!</h1>
+            <!-- !Text-1 -->
+            <p class="text-1-center">
+                Llena los siguientes datos para que puedas realizar compras en
+                la tienda:
+            </p>
+            <div class="container-80">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nombre</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="txt_1"
+                            placeholder="Ingrese su nombre..."
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Apellido</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="txt_2"
+                            placeholder="Ingrese su apellido..."
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="mail">Usuario</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="txt_4"
+                            placeholder="Ingrese su usuario..."
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="mail">Correo</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="txt_3"
+                            placeholder="Ingrese su correo..."
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <input
+                        type="submit"
+                        class="btn-home"
+                        onclick="btnMain()"
+                        value="Registrar"
+                    />
+                </div>
+            </div>
+        <!-- !Footer -->
+        <div style="height: 150px"></div>
+        <footer class="sticky-footer">
+            <p>
+                <a href="https://www.ucb.edu.bo/"
+                    >Universidad Católica Boliviana "San Pablo"</a
+                >
+                <br />Tecnologías Web
+            </p>
+        </footer>
+    </body>
+</html>

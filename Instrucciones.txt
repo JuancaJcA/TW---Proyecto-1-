@@ -1,0 +1,19 @@
+Materia: SIS-241 TECNOLOGÍAS WEB [Par. 1]
+Estudiante: Juan Carlos Avila Flores
+
+*--------------------- PROYECTO 1 ----------------------*
+REQUISITOS TÉCNICOS:
+	1) DESARROLLAR UN FORMULARIO WEB CON DISEÑO HTML5/CSS BOOTSTRAP. 
+	EL FORMULARIO DEBE TENER TODA LA INFORMACIÓN NECESARIA PARA LA EMPRESA 
+	DE JUEGOS ONLINE "GAMER STORE".
+	2) INCORPORAR JAVASCRIPT EN EL FORMULARIO CON LAS SIGUIENTES CARACTERÍSTICAS:
+		- USAR ESTRUCTURAS DE PROGRAMACIÓN.
+		- FUNCIONES
+		- FORMULARIOS
+		- CONTROLES.
+*-------------------- INSTRUCCIONES --------------------*
+- Todas las imágenes y hojas de estilo se encuentran en su carpeta correspondiente.
+- Ejecutar el archivo main.html
+
+*------------------------ GITHUB -----------------------*
+https://github.com/JuancaJcA/TW---Proyecto-1-

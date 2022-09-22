@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <!--* HEAD -->
+
+    <head>
+        <!-- !TTTLE -->
+        <title>Gamer Store</title>
+        <!-- !META -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="SIS-241 TECNOLOGÍAS WEB [Par. 1]" />
+        <meta name="author" content="Juan Carlos Avila Flores" />
+        <!-- !LINK -->
+        <link rel="icon" href="images/icon.png" />
+        <link rel="stylesheet" href="css/body.css" />
+        <link rel="stylesheet" href="css/cards.css" />
+        <link rel="stylesheet" href="css/forms.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/buttons.css" />
+        <link rel="stylesheet" href="css/carousel.css" />
+        <link rel="stylesheet" href="css/social-media.css" />
+        <!-- !GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <!-- !SCRIPT -->
+        <script type="text/javascript" src="js/contact.js"></script>
+        <!-- !Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+
+    <!--* BODY -->
+    <body class="bodyWhite">
+        <!-- !Navbar -->
+        <ul class="topnav">
+            <li><a href="main.html">Registrar</a></li>
+            <li><a href="store.html">Catálago</a></li>
+            <li style="float: right">
+                <a class="active" href="contact.html">Contacto</a>
+            </li>
+        </ul>
+        <center>
+            <!-- !Contact Image -->
+            <p id="contact">
+                <img src="images/contact.jpg" style="width: 100%" />
+            </p>
+            <!-- !Title -->
+            <h1 class="title-1">Contáctanos</h1>
+            <!-- !Text-1 -->
+            <h2 class="title-2">¿Quieres ponerte en contacto con nosotros?</h2>
+            <p class="text-1-center">
+                Ya sea que eres una <strong>empresa</strong> o una persona que
+                quiere conseguir los <strong>mejores juegos</strong> del país,
+                llena este formulario y nosotros nos pondremos en contacto
+                contigo lo más rápido posible:
+            </p>
+            <div class="container-80">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nombre</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="txt_1"
+                            placeholder="Ingrese su nombre..."
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Apellido</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="txt_2"
+                            placeholder="Ingrese su apellido..."
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="mail">Correo</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                            type="text"
+                            id="txt_3"
+                            placeholder="Ingrese su correo..."
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Mensaje</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea
+                            id="txt_4"
+                            placeholder="Escriba su mensaje..."
+                            style="height: 200px"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input
+                        type="submit"
+                        class="btn-home"
+                        onclick="btnContact()"
+                        value="Enviar"
+                    />
+                </div>
+            </div>
+            <!-- !Text-2 -->
+            <h2 class="title-2">¿Donde puedo comprar?</h2>
+            <p class="text-1-center">
+                Puedes encontrarnos nuestra siguiente sucursal:
+            </p>
+            <!-- !Map -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122414.43434930834!2d-68.21962176892997!3d-16.503310031525046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edfaa5815fb4d%3A0x68e44cd0f8929fda!2sGAME%20STOP%20BOLIVIA!5e0!3m2!1ses-419!2sbo!4v1663774471892!5m2!1ses-419!2sbo"
+                width="80%"
+                height="700px"
+                style="padding-top: 30px"
+                frameborder="0"
+                style="border: 0"
+                aria-hidden="false"
+                tabindex="0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <!-- Text-3 -->
+            <p class="text-1-center">
+                <strong>¡Te Esperamos!</strong>
+            </p>
+        </center>
+        <!-- !Social Media -->
+        <center style="padding: 30px 0px 30px 0px">
+            <a
+                href="https://www.facebook.com/GameStop/"
+                class="fa fa-facebook"
+            ></a>
+            <!-- <a href="#" class="fa fa-twitter"></a> -->
+            <!-- <a href="#" class="fa fa-google"></a> -->
+            <a
+                href="https://www.linkedin.com/company/gamestop"
+                class="fa fa-linkedin"
+            ></a>
+            <a
+                href="https://www.youtube.com/gamestopvideo"
+                class="fa fa-youtube"
+            ></a>
+            <a
+                href="https://www.instagram.com/gamestop/?hl=es"
+                class="fa fa-instagram"
+            ></a>
+            <!-- <a href="#" class="fa fa-pinterest"></a> -->
+            <!-- <a href="#" class="fa fa-snapchat-ghost"></a> -->
+            <!-- <a href="#" class="fa fa-skype"></a> -->
+            <!-- <a href="#" class="fa fa-android"></a> -->
+            <!-- <a href="#" class="fa fa-dribbble"></a> -->
+            <!-- <a href="#" class="fa fa-vimeo"></a> -->
+            <!-- <a href="#" class="fa fa-tumblr"></a> -->
+            <!-- <a href="#" class="fa fa-vine"></a> -->
+            <!-- <a href="#" class="fa fa-foursquare"></a> -->
+            <!-- <a href="#" class="fa fa-stumbleupon"></a> -->
+            <!-- <a href="#" class="fa fa-flickr"></a> -->
+            <!-- <a href="#" class="fa fa-yahoo"></a> -->
+            <a href="https://www.reddit.com/r/memes/" class="fa fa-reddit"></a>
+            <!-- <a href="#" class="fa fa-rss"></a> -->
+        </center>
+        <!-- !Footer -->
+        <div style="height: 150px"></div>
+        <footer class="sticky-footer">
+            <p>
+                <a href="https://www.ucb.edu.bo/"
+                    >Universidad Católica Boliviana "San Pablo"</a
+                >
+                <br />Tecnologías Web
+            </p>
+        </footer>
+    </body>
+</html>
